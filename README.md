@@ -43,11 +43,12 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 Start json-server, which will emulate the behavior of the api server.
 Server routes will look like:
-
+```
   "/boards/MAIN/tasks/:id": "/board_main_tasks/:id",
   "/boards/DEVELOPMENT/tasks/:id": "/board_development_tasks/:id",
   "/boards/MAIN/tasks": "/board_main_tasks/",
   "/boards/DEVELOPMENT/tasks": "/board_development_tasks/"
+ ```
 
 ## Learn More
 
